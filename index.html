@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Retake.exam3</title>
+    <link rel="stylesheet" href="./assets/style/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 class="title">КАЛЬКУЛЯТОР</h2>
+
+      <input class="input__meaning" id="num1" />
+
+      <div class="operator_btns" id="operator_btns">
+        <button id="plus" class="operator" onclick="op='+'">+</button>
+        <button id="minus" class="operator" onclick="op='-'">-</button>
+        <button id="times" class="operator" onclick="op='*'">*</button>
+        <button id="divide" class="operator" onclick="op='/'">:</button>
+      </div>
+
+      <input class="input__meaning" id="num2" />
+
+      <button onclick="func()">==</button>
+
+      <p id="result"></p>
+    </div>
+
+    <script src="./assets/script/script.js"></script>
+  </body>
+</html>

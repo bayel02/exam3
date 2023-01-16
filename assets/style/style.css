@@ -1,0 +1,37 @@
+.container {
+  width: 700px;
+  height: 400px;
+  background-color: rgb(65, 182, 110);
+  padding: 0 10px;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.title {
+  padding-top: 40px;
+  text-align: center;
+  font-size: 25px;
+}
+
+.input__meaning {
+  width: 107px;
+  height: 20px;
+  border-radius: 6px;
+  border: 1px solid rgb(4, 121, 167);
+  margin-right: 10px;
+}
+#operator_btns {
+  display: flex;
+  margin-right: 10px;
+}
+.btn {
+  width: 30px;
+  height: 24px;
+  border-radius: 6px;
+  margin-right: 10px;
+}
+#result{
+  width: 100px;
+  height: 25px;
+  border-radius: 5px;
+  background: rebeccapurple;
+}
